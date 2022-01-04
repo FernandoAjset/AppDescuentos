@@ -8,12 +8,19 @@ html {
   min-height: 100%;
   font-size: 62.5%;
   background-image: linear-gradient(
-    to right top,
-    #7209b7,
-    #962abf,
-    #b545c8,
-    #d260d1,
-    #ec7cdc
+    to left top,
+    #4cc9f0,
+    #85d1f9,
+    #aed9fe,
+    #cfe2ff,
+    #e8edff,
+    #e8edff,
+    #e8edff,
+    #e8edff,
+    #cfe2ff,
+    #aed9fe,
+    #85d1f9,
+    #4cc9f0
   );
   font-family: "Poppins", sans-serif;
 }
@@ -21,18 +28,26 @@ header {
   width: 100%;
   height: 80px;
   background-image: linear-gradient(
-    to right top,
-    #560bad,
-    #4f0bab,
-    #490ca8,
-    #420ca6,
-    #3a0ca3
+    to left top,
+    #3f37c9,
+    #354cd4,
+    #2d5fdd,
+    #2c70e4,
+    #3480ea,
+    #3480ea,
+    #3480ea,
+    #3480ea,
+    #2c70e4,
+    #2d5fdd,
+    #354cd4,
+    #3f37c9
   );
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #4895ef;
+  color: #3a0ca3;
+  text-align: center;
 }
 
 /* .cupones {
@@ -63,7 +78,7 @@ main {
 .descuentos h2 {
   text-align: justify;
   margin-bottom: 10px;
-  color: #3a0ca3;
+  color: #001d3d;
 }
 .descuento-porcentaje form,
 .descuento-cupon form {
@@ -82,7 +97,7 @@ input {
 .descuento-cupon label {
   width: 200px;
   text-align: center;
-  color: #480ca8;
+  color: #003566;
   font-weight: normal;
 }
 .descuento-porcentaje form input,
@@ -93,46 +108,69 @@ input {
 .descuento-porcentaje button,
 .descuento-cupon button {
   margin: 0 5px 5px 5px;
-  width: 150px;
+  width: 175px;
   height: 40px;
   border: none;
   border-radius: 5px;
-  background-color: #b5179e;
-  color: white;
+  background-color: #4cc9f0;
+  color: #001d3d;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
+  margin-top: 10px;
 }
 .descuento-cupon h2 {
   margin-top: 5px;
 }
-.cupones {
-  width: 85%;
+.cupones-container{
+  width: 90%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.cupones {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
   margin-top: 20px;
   margin-bottom: 20px;
   justify-content: space-around;
-  align-items: center;
+  text-align: justify;
+}
+.cupones h2{
+  display: block;
 }
 .cupon {
-  width: 250px;
-  height: 60px;
-  border: 2px solid black;
+  width: 100px;
+  height: 150px;
+  border: 2px solid #800217;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(
-    to bottom,
-    #b5179e,
-    #c81399,
-    #d91493,
-    #e91a8c,
-    #f72585
+    to left top,
+    #d90429,
+    #dd0c2c,
+    #e11330,
+    #e61833,
+    #ea1d37,
+    #ea1d37,
+    #ea1d37,
+    #ea1d37,
+    #e61833,
+    #e11330,
+    #dd0c2c,
+    #d90429
   );
-  color:black;
+  color: black;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 4px 4px 6px gray;
 }
 .cupones .cupon3 {
   margin-bottom: 0;
@@ -140,14 +178,49 @@ input {
 footer {
   bottom: 0;
   width: 100%;
-  height: 80px;
+  height: 100px;
   bottom: 0px;
   background-image: linear-gradient(
-    to bottom,
-    #480ca8,
-    #450ca7,
-    #410ca6,
-    #3e0ca4,
-    #3a0ca3
+    to left top,
+    #7209b7,
+    #6d0ab5,
+    #680ab4,
+    #620bb2,
+    #5d0bb0,
+    #5d0bb0,
+    #5d0bb0,
+    #5d0bb0,
+    #620bb2,
+    #680ab4,
+    #6d0ab5,
+    #7209b7
   );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 80%;
+  justify-content: center;
+}
+.logos {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.social-media h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.logos figure {
+  position: relative;
+  width: 20%;
+}
+.logos img {
+  width: 100%;
 }
