@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 62.5%;
+  background-image: linear-gradient(
+    to right top,
+    #7209b7,
+    #962abf,
+    #b545c8,
+    #d260d1,
+    #ec7cdc
+  );
+  font-family: "Poppins", sans-serif;
+}
+header {
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(
+    to right top,
+    #560bad,
+    #4f0bab,
+    #490ca8,
+    #420ca6,
+    #3a0ca3
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4895ef;
+}
+
+/* .cupones {
+  position: absolute;
+  right: 5%;
+} */
+main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.descuentos {
+  background-image: linear-gradient(
+    to bottom,
+    #4361ee,
+    #3970f1,
+    #367df2,
+    #3b89f1,
+    #4895ef
+  );
+  width: 85%;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid #3A0CA3;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px #371769;
+}
+.descuentos h2 {
+  text-align: justify;
+  margin-bottom: 10px;
+  color:#3A0CA3;
+}
+.descuento-porcentaje form,
+.descuento-cupon form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.descuento-porcentaje form label,
+.descuento-cupon label {
+  width: 200px;
+  text-align: center;
+  color:#480CA8;
+  font-weight:normal;
+}
+.descuento-porcentaje form input,
+.descuento-cupon form input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.descuento-porcentaje button,
+.descuento-cupon button {
+  margin: 0 5px 5px 5px;
+  width: 150px;
+}
+.descuento-cupon h2 {
+  margin-top: 5px;
+}
+.cupones {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.cupon {
+  width: 250px;
+  height: 60px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    #b5179e,
+    #c81399,
+    #d91493,
+    #e91a8c,
+    #f72585
+  );
+  color:#4361EE;
+}
+.cupones .cupon3 {
+  margin-bottom: 0;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  bottom: 0px;
+  background-image: linear-gradient(
+    to bottom,
+    #480ca8,
+    #450ca7,
+    #410ca6,
+    #3e0ca4,
+    #3a0ca3
+  );
+}
