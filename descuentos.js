@@ -67,7 +67,7 @@ function onClickButtonCouponDiscount() {
       ", tienes un descuento de: " +
       discount +
       "%" +
-      " el precio del producto con descuento es de: " +
+      " el precio del producto con descuento es de: Q" +
       priceFinal;
   } else {
     resultPC.innerText = "Cupón invalido";

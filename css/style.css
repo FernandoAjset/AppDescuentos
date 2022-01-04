@@ -56,14 +56,14 @@ main {
   );
   width: 85%;
   padding: 20px 20px 20px 20px;
-  border: 2px solid #3A0CA3;
+  border: 2px solid #3a0ca3;
   border-radius: 15px;
   box-shadow: 3px 3px 15px #371769;
 }
 .descuentos h2 {
   text-align: justify;
   margin-bottom: 10px;
-  color:#3A0CA3;
+  color: #3a0ca3;
 }
 .descuento-porcentaje form,
 .descuento-cupon form {
@@ -72,12 +72,18 @@ main {
   align-items: center;
   justify-content: center;
 }
+input {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 6px;
+  height: 20px;
+}
 .descuento-porcentaje form label,
 .descuento-cupon label {
   width: 200px;
   text-align: center;
-  color:#480CA8;
-  font-weight:normal;
+  color: #480ca8;
+  font-weight: normal;
 }
 .descuento-porcentaje form input,
 .descuento-cupon form input {
@@ -88,6 +94,14 @@ main {
 .descuento-cupon button {
   margin: 0 5px 5px 5px;
   width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b5179e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .descuento-cupon h2 {
   margin-top: 5px;
@@ -118,7 +132,7 @@ main {
     #e91a8c,
     #f72585
   );
-  color:#4361EE;
+  color:black;
 }
 .cupones .cupon3 {
   margin-bottom: 0;
