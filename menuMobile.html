@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      :root {
+        --withe: #ffffff;
+        --black: #000000;
+        --very-light-pink: #c7c7c7;
+        --text-input-field: #f7f7f7;
+        --hospital-green: #acd9b2;
+        --sm: 14px;
+        --md: 16px;
+        --lg: 18px;
+      }
+      body {
+        font-family: "Quicksand", sans-serif;
+        margin: 0;
+      }
+      .mobile-menu {
+        padding: 24px;
+      }
+      .mobile-menu a {
+        text-decoration: none;
+        color: var(--black);
+        font-weight: bold;
+      }
+      .mobile-menu ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        margin-top: 32px;
+      }
+
+      .mobile-menu ul:nth-child(1),
+      ul:nth-child(2) {
+        border-bottom: 1px solid var(--very-light-pink);
+      }
+      .mobile-menu ul li {
+        margin-bottom: 20px;
+      }
+      .mobile-menu .volver {
+        text-decoration: none;
+        color: #3f37c9;
+        font-weight: bold;
+        margin-top: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mobile-menu">
+      <ul>
+        <li>
+          <h3>CONTACTO</h3>
+        </li>
+        <li>
+          <a href="mailto:fernando_ajset@hotmail.com?subject=Contacto&body=Me dirijo a usted porque me interesa su trabajo como desarrollador">Enviar E-mail</a>
+        </li>
+        <li>
+          <a href="https://fernandoajset.github.io/Web/" target="_blank">Acerca del desarrollador</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h3>DONAR</h3>
+        </li>
+        <li>
+          <a href="https://www.paypal.com/paypalme/EAjset?locale.x=es_XC" target="_blank">Paypal</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h3>DOCUMENTACION</h3>
+        </li>
+        <li>
+          <a href="https://github.com/FernandoAjset/AppDescuentos" target="_blank">Código fuente</a>
+        </li>
+        <li class="volver">
+          <a href="./index.html" class="volver">Volver</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
