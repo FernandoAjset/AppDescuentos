@@ -26,9 +26,27 @@
     background-color: #4cc9f0;
   }
   main {
-    margin-top: 40px;
     flex-direction: row;
     justify-content: center;
+  }
+  .descuentos {
+    width: 500px;
+    height: 500px;
+    font-size: smaller;
+    padding: 10px 15px;
+  }
+  .descuentos form label {
+    font-size: small;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .descuentos form button {
+    height: 40px;
+    margin-top: 5px;
+  }
+  .descuentos h2 {
+    margin-bottom: 5px;
   }
   .cupones-container {
     min-width: 130px;
@@ -80,10 +98,5 @@
   }
   .cupon {
     width: 175px;
-  }
-  footer {
-    margin-top: 40px;
-    position: absolute;
-    bottom: 0;
   }
 }
