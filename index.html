@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Porcentajes de descuentos | Curso Practico JavaScript</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="screen and (min-width: 600px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="screen and (min-width: 800px)"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,11 +46,11 @@
           href="mailto:fernando_ajset@hotmail.com?subject=Contacto&body=Me dirijo a usted porque me interesa su trabajo como desarrollador"
           ><h3>Contacto</h3>
         </a>
-        <a href="https://github.com/FernandoAjset/AppCalculosFiguras" target="_blank"><h3>Código fuente</h3></a>
+        <a href="https://github.com/FernandoAjset/AppDescuentos" target="_blank"><h3>Código fuente</h3></a>
       </section>
       <section class="titulo">      
         <h1>Porcentajes y descuentos</h1>
-      <h3>Segundo taller del curso practico de JavaScritp</h3>
+      <h3>Curso practico de JavaScritp</h3>
     </section>
     </header>
     <main>
@@ -72,25 +82,26 @@
             </button>
           </form>
         </section>
-        <p id="Result"></p>
+        <p class="resultado-titulo">RESULTADO</p>
+        <p id="Result" class="resultado"></p>
       </section>
       <section class="cupones-container">
         <h2>CUPONES DE DESCUENTO</h2>
         <section class="cupones">
         <div class="cupon">
           <h3>Id: 12345</h3>
-          <h3><br>Jorge Palacios</h3>
-          <h3><br>Descuento: 10%</h3>
+          <h3><br class="nombre-salto">Jorge Palacios</h3>
+          <h3><br class="nombre-salto">Descuento: 10%</h3>
         </div>
         <div class="cupon">
           <h3>Id: abcd123</h3>
-          <h3><br>Maria Tejada</h3>
-          <h3><br>Descuento: 15%</h3>
+          <h3><br class="nombre-salto">Maria Tejada</h3>
+          <h3><br class="nombre-salto">Descuento: 15%</h3>
         </div>
         <div class="cupon cupon3">
           <h3>Id: 2022</h3>
-          <h3><br>Pedro Ramirez</h3>
-          <h3><br>Descuento: 12%</h3>
+          <h3><br class="nombre-salto">Pedro Ramirez</h3>
+          <h3><br class="nombre-salto">Descuento: 12%</h3>
         </div>
       </section>
     </section>

@@ -23,6 +23,7 @@ html {
     #4cc9f0
   );
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 header {
   width: 100%;
@@ -48,13 +49,13 @@ header {
   color: #3a0ca3;
   text-align: center;
 }
-.menu-desk{
+.menu-desk {
   display: none;
 }
-.menu{
+.menu {
   width: 15%;
 }
-.titulo{
+.titulo {
   display: flex;
   flex-direction: column;
   width: 85%;
@@ -88,6 +89,19 @@ main {
   text-align: justify;
   margin-bottom: 10px;
   color: #001d3d;
+}
+.resultado-titulo {
+  color: white;
+  font-size: small;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.resultado {
+  color: white;
+  font-size: small;
+  text-align: justify;
+  margin-bottom: 10px;
 }
 .descuento-porcentaje form,
 .descuento-cupon form {
@@ -130,13 +144,13 @@ input {
   margin-top: 10px;
 }
 
-.descuentos button:hover{
+.descuentos button:hover {
   background-color: #4f4cf8;
 }
 .descuento-cupon h2 {
   margin-top: 5px;
 }
-.cupones-container{
+.cupones-container {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -153,7 +167,7 @@ input {
   justify-content: space-around;
   text-align: justify;
 }
-.cupones h2{
+.cupones h2 {
   display: block;
 }
 .cupon {
@@ -192,7 +206,6 @@ footer {
   bottom: 0;
   width: 100%;
   height: 100px;
-  bottom: 0px;
   background-image: linear-gradient(
     to left top,
     #7209b7,
@@ -218,13 +231,14 @@ footer {
   display: flex;
   flex-direction: column;
   width: 60%;
-  height: 80%;
+  height: 100%;
   justify-content: center;
+  align-items: center;
 }
 .logos {
-  width: 100%;
   display: flex;
   justify-content: space-around;
+  height: 40%;
 }
 .social-media h3 {
   text-align: center;
@@ -236,4 +250,5 @@ footer {
 }
 .logos img {
   width: 100%;
+  height: 100%;
 }
